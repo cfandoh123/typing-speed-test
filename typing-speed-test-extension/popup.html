@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Typing Speed Test</h2>
+    <p id="test-string">The big brown fox jumps over the lazy dog</p>
+    <textarea id="user-input" placeholder="Start typing here..." rows="3"></textarea>
+    <button id="start-btn">Start</button>
+    <div id="results" class="hidden">
+      <p>Total words: <span id="total-words"></span></p>
+      <p>Time used: <span id="time-used"></span> seconds</p>
+      <p>Your accuracy: <span id="accuracy"></span>%</p>
+      <p>Speed: <span id="wpm"></span> words per minute</p>
+      <button id="retry-btn">Retry</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

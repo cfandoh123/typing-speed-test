@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Typing Speed Test",
+  "version": "2.0",
+  "description": "Test your typing speed and accuracy in a beautiful, interactive full-page extension.",
+  "chrome_url_overrides": {
+    "newtab": "page.html"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+} 

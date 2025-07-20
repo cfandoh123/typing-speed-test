@@ -1,0 +1,103 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f4f6fb 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #3a3a3a;
+  margin-bottom: 24px;
+}
+
+.difficulty-select {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.challenge-box {
+  width: 100%;
+  background: #e9ecef;
+  border-radius: 8px;
+  padding: 18px 16px;
+  margin-bottom: 18px;
+  font-size: 1.2em;
+  color: #444;
+  min-height: 60px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.1em;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #bfc9d9;
+  margin-bottom: 18px;
+  resize: none;
+  transition: border 0.2s;
+}
+
+textarea:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+button {
+  flex: 1;
+  padding: 12px 0;
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  background: #bfc9d9;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #357ae8;
+}
+
+#results {
+  width: 100%;
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 10px;
+  color: #333;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+} 
